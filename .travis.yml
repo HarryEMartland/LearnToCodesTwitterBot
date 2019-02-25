@@ -10,7 +10,7 @@ deploy:
   provider: lambda
   function_name: "LearnToCodesTwitterBot"
   region: "eu-west-1"
-  role: "arn:aws:iam::818032293643:role/service-role/LearnToCodesTwitterBot"
+  role: "arn:aws:iam::818032293643:role/service-role/lambda-LearnToCodesTwitterBot"
   runtime: "nodejs6.10"
   module_name: "app"
   handler_name: "handler"
