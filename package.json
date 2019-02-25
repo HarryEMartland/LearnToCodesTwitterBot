@@ -1,0 +1,20 @@
+{
+  "name": "aws-lambda-retweeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "npm prune --production && zip -r app.zip node_modules *.js",
+    "test": "echo \"Error: no test specified\"",
+    "start": "node -e 'require(\"./app.js\").handler(null, null, ()=>{})'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.353.0"
+  }
+}
